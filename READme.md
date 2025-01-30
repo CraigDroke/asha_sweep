@@ -69,10 +69,19 @@ To use this script:
    ```
 
 3. **Examine the Results**:
-The following is the structure of save path
-```python
-    TODO
-```
+The following is the structure of save path:
+
+    current_runs.csv
+    fitness_scores.csv
+    data
+       train.pkl
+       val.pkl
+    runs
+        1 (each run)
+            Brad_Lucy_Gomes (all randomly generated names)
+                config_params.yaml
+                trained_models
+                    model_after_training_on_rung_0.pt (for each rung)
 
 ---
 
